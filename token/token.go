@@ -1,9 +1,9 @@
 package token
 
-type tokenType string
+type TokenType string
 
 type Token struct{
-  Type tokenType
+  Type TokenType
   Literal string
 }
 
@@ -25,8 +25,8 @@ const (
 
   LPAREN = "("
   RPAREN = ")"
-  LBRACE = "["
-  RBRACE = "]"
+  LBRACE = "{"
+  RBRACE = "}"
 
   // Keywords
   FUNCTION = "FUNCTION"
